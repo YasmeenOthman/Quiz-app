@@ -1,0 +1,167 @@
+[
+  {
+    "questionText":
+      "What is the output of the following code? ",
+      "questionCode":"console.log(typeof([]));",
+    "answerOptions": [
+      {"answerText": "array", "isCorrect": false },
+      {"answerText": "object", "isCorrect": true },
+      {"answerText": "undefined", "isCorrect": false },
+      {"answerText": "None of the above", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText":
+      "Which of the following is not a valid JavaScript variable name?",
+    "answerOptions": [
+      { "answerText": "my-variable", "isCorrect": false },
+      { "answerText": "123variable", "isCorrect": true },
+      { "answerText": "_myVariable", "isCorrect": false },
+      { "answerText": "myVariable", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "What will the following code output?",
+    "questionCode":"console.log(0.1 + 0.2 === 0.3)",
+    "answerOptions": [
+      { "answerText": "true", "isCorrect": false },
+      { "answerText": "false", "isCorrect": true }
+    ]
+  },
+  {
+    "questionText": "Inside which HTML element do we put the JavaScript?",
+ 
+    "answerOptions": [
+      { "answerText": "<scripting>", "isCorrect": false },
+      { "answerText": "<js>", "isCorrect": false },
+      { "answerText": "<script>", "isCorrect": true },
+      { "answerText": "<javascript", "isCorrect":  false}
+    ]
+  },
+  {
+    "questionText": "What is the correct JavaScript syntax to change the content of the HTML element below?",
+    "questionCode":"<p id='demo'>This is a demonstration.</p>",
+    "answerOptions": [
+      { "answerText": " document.getElementById('demo').innerHTML = 'Hello World!'", "isCorrect": true },
+      { "answerText": "#demo.innerHTML = 'Hello World!'", "isCorrect": false },
+      { "answerText": " document.getElementByName('p').innerHTML = 'Hello World!';", "isCorrect": false },
+      { "answerText": " document.getElement('p').innerHTML = 'Hello World!';", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Where is the correct place to insert a JavaScript?",
+    "answerOptions": [
+      { "answerText": "The <body> section", "isCorrect": false },
+      { "answerText": " The <head> section", "isCorrect": false },
+      { "answerText": " Both the <head> section and the <body> section are correct", "isCorrect": true }
+  
+    ]
+  },
+  {
+    "questionText": "How do you write 'Hello World' in an alert box?",
+    "answerOptions": [
+      { "answerText": "alert(Hello World)", "isCorrect": false },
+      { "answerText": "alertBox('Hello World') ", "isCorrect": false },
+      { "answerText": "alert('Hello World')", "isCorrect": true }
+  
+    ]
+  },
+  {
+    "questionText": "How do you create a function in JavaScript?",
+    "answerOptions": [
+      { "answerText": "function myFunction(){}", "isCorrect": true },
+      { "answerText": "function:myFunction(){}", "isCorrect": false },
+      { "answerText": "function = myFunction(){}", "isCorrect": false }
+  
+    ]
+  },
+  {
+    "questionText": "How do you call a function named 'myFunction'?",
+    "answerOptions": [
+      { "answerText": "myFunction()", "isCorrect": true },
+      { "answerText": "call function myFunction()", "isCorrect": false },
+      { "answerText": "myFunction", "isCorrect": false }
+  
+    ]
+  },
+  {
+    "questionText": "How to write an IF statement in JavaScript?",
+    "answerOptions": [
+      { "answerText": "if i==5 then", "isCorrect": false },
+      { "answerText": "if(i==5)", "isCorrect": true },
+      { "answerText": "if i=5", "isCorrect": false }
+  
+    ]
+  },
+  
+  {
+    "questionText": "How can you add a comment in a JavaScript?",
+    "answerOptions": [
+      { "answerText": " <!--This is a comment-->;", "isCorrect": false },
+      { "answerText": " 'This is a comment", "isCorrect": false },
+      { "answerText": "//This is a comment", "isCorrect": true}
+  
+    ]
+  },
+  {
+    "questionText": "console.log(1 +  '2' + '2');",
+    "answerOptions": [
+      { "answerText": "122", "isCorrect": true },
+      { "answerText": "32", "isCorrect": false},
+      { "answerText": "NaN", "isCorrect": false}
+  
+    ]
+  },
+  {
+    "questionText": "console.log(('b' + 'a' + + 'a' + 'a').toLowerCase());",
+    "answerOptions": [
+      { "answerText": "bananaa", "isCorrect": false },
+      { "answerText": "baaa", "isCorrect": false},
+      { "answerText": "banana", "isCorrect": true},
+      { "answerText": "ananas", "isCorrect": false}
+  
+    ]
+  },
+  {
+    "questionText": "Do you know what will be the output of this code?",
+    "questionCode":"const numbers = [33, 2, 8];\n numbers.sort();\nconsole.log(numbers[1])",
+    "answerOptions": [
+      { "answerText": "2", "isCorrect": false },
+      { "answerText": "33", "isCorrect":true},
+      { "answerText": "8", "isCorrect": false},
+      { "answerText": "1", "isCorrect": false}
+  
+    ]
+  },
+  {
+    "questionText": "console.log(typeof NaN);",
+    "answerOptions": [
+      { "answerText": "undefined", "isCorrect": false },
+      { "answerText": "NaN", "isCorrect":false},
+      { "answerText": "null", "isCorrect": false},
+      { "answerText": "Number", "isCorrect": true}
+  
+    ]
+  },
+  {
+    "questionText": "console.log(false == '0');",
+    "answerOptions": [
+      { "answerText": "false", "isCorrect": false },
+      { "answerText": "true", "isCorrect":true}
+  
+    ]
+  },
+  {
+    "questionText": "Do you know what will be the output of this code?",
+    "questionCode":"let array = [1, 2, 3];\n array[6] = 9;\n console.log(array[5]);",
+    "answerOptions": [
+      { "answerText": "1", "isCorrect": false },
+      { "answerText": "2", "isCorrect":false},
+      { "answerText": "undefined", "isCorrect":true},
+      { "answerText": "9", "isCorrect":false}
+  
+    ]
+  }
+ 
+
+]
