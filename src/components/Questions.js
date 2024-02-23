@@ -11,7 +11,6 @@ function Questions() {
     if (isCorrect) {
       setScore(score + 1);
     }
-
     const nextQuestion = currentQuestion + 1;
     if (nextQuestion < questions.length) {
       setCurrentQuestion(nextQuestion);
@@ -24,6 +23,7 @@ function Questions() {
       {showScore ? (
         <div className="score-section">
           You scored {score} out of {questions.length}
+          {score === 17 ? "🎉" : "⏯️"}
         </div>
       ) : (
         <>
