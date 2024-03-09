@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import questions from "./QuestionsBank";
+import questions from "./QuestionsBank.json";
 import "./Question.css";
 
 function Questions() {

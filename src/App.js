@@ -1,11 +1,10 @@
-import Questions from "./components/Questions";
-import Welcome from "./components/Welcome";
+import Questions from "./components/jsQuiz/Questions";
+import Home from "./components/HomePage/Home";
 
 function App() {
   return (
     <div className="App">
-      <Welcome />
-      <Questions />
+      <Home />
     </div>
   );
 }
